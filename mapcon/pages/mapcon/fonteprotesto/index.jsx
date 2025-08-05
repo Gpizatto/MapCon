@@ -160,7 +160,7 @@ function CategoriaObjetoForm(props) {
         props.closeForm(true)
     }
 
-
+ 
 
     return (
         <Dialog header="Fonte Protesto" className="p-fluid" modal visible={props.showForm.visible} onHide={() => props.closeForm(false)}>
